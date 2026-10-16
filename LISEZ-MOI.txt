@@ -1,0 +1,22 @@
+PAUL ACTU UL — version avec rubrique APK
+
+Le site inclut une rubrique « APK » dans la navigation principale et un bouton permettant de télécharger PAUL-ACTU-UL-Universit-De-Lom-1.0.apk.
+
+Publication : décompressez cette archive et téléversez les fichiers contenus à la racine du site Netlify. Gardez le fichier APK à côté de index.html pour que le lien de téléchargement fonctionne.
+
+Note : l’installation d’un APK Android peut déclencher des avertissements de sécurité. Distribuez uniquement un fichier dont l’origine et le contenu ont été vérifiés.
+
+
+Mise à jour : la section APK précise que le téléchargement est pour Android et affiche une courte indication destinée aux utilisateurs iPhone/iPad pour ajouter le site à l’écran d’accueil depuis Safari.
+
+PAGE DE BIENVENUE AJOUTÉE
+- Nouvelle page : https://paulactuul.netlify.app/bienvenue.html
+- Pour que l’application s’ouvre d’abord sur cette page, indique cette URL comme adresse de départ dans le générateur d’APK, si cette option est disponible.
+- Le bouton « Entrer sur le site » ouvre ensuite la page d’accueil habituelle (/).
+- Le sitemap.xml contient maintenant la page d’accueil et la page de bienvenue.
+
+DÉPLOIEMENT NETLIFY
+Décompressez le ZIP et envoyez le dossier contenant index.html, bienvenue.html et les autres fichiers sur le site existant dans Netlify. Ne supprimez pas les anciens fichiers. Après le déploiement, testez /bienvenue.html dans le navigateur.
+
+
+Mise à jour : bienvenue.html utilise le logo PAUL ACTU UL intégré directement dans la page pour éviter une image manquante. L’emblème de l’Université de Lomé est chargé depuis une source publique ; si cette image distante est indisponible, un badge « UL » s’affiche à sa place. Déployez le contenu de cette archive avec index.html à la racine du dossier publié.
